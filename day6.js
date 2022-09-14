@@ -3,7 +3,7 @@
 function processData(input) {
     //Enter your code here
     
-     input = input.split('\n')
+     input = input.split('\n') //converted to array
      
     for(let i=1 ; i<input.length; i++){
         let splitStr = input[i].split('')
